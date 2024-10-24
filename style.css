@@ -1,0 +1,216 @@
+
+      .first {
+        background-color: red;
+        border-radius: 3px;
+        color: white;
+        border: none;
+        height: 36px;
+        width: 105px;
+        margin-right: 2px;
+        cursor: pointer;
+        transition: opacity 1s;
+      }
+
+      .first:hover {
+        opacity: 0.5;
+      }
+      .first:active {
+        opacity: 0.5;
+      }
+
+      .second {
+        background-color: white;
+        border-radius: 3px;
+        color: rgb(5, 155, 242);
+        border-color: rgb(5, 155, 242);
+        border-style: solid;
+        border-width: 1px;
+        height: 36px;
+        width: 105px;
+        margin-right: 2px;
+        cursor: pointer;
+        transition: background-color 1s;
+      }
+      .second:hover {
+        background-color: rgb(5, 155, 242);
+        color: white;
+      }
+
+      .second:active {
+        opacity: 0.5;
+      }
+
+      .third {
+        background-color: rgb(8, 174, 240);
+        color: white;
+        border-radius: 15px;
+        border-style: none;
+        cursor: pointer;
+        font-size: 15px;
+        font-weight: bold;
+        transition: box-shadow 1s;
+        height: 36px;
+        width: 105px;
+      }
+
+      .third:hover {
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
+      }
+
+      .uber {
+        background-color: black;
+        color: white;
+        height: 40px;
+        width: 115px;
+        border-style: none;
+        cursor: pointer;
+        margin-right: 20px;
+      }
+
+      .amazon {
+        background-color: rgb(255, 216, 20);
+        color: black;
+        height: 35px;
+        width: 170px;
+        border-style: none;
+        border-radius: 20px;
+        cursor: pointer;
+        margin-right: 20px;
+      }
+
+      .github {
+        background-color: rgb(46, 164, 79);
+        color: white;
+        height: 35px;
+        width: 100px;
+        border-style: none;
+        border-radius: 4px;
+        font-style: bolder;
+        font-weight: bold;
+        cursor: pointer;
+      }
+
+      .bootstrap1 {
+        background-color: rgb(121, 82, 179);
+        color: white;
+        height: 35px;
+        width: 100px;
+        border-style: none;
+        border-radius: 4px;
+        font-style: bolder;
+        font-weight: bold;
+        cursor: pointer;
+      }
+
+      .bootstrap2 {
+        background-color: white;
+        color: rgb(108, 117, 125);
+        height: 35px;
+        width: 100px;
+        border-style: solid;
+        border-color: rgb(108, 117, 125);
+        border-width: 1px;
+        border-radius: 4px;
+        font-style: bolder;
+        font-weight: bold;
+        cursor: pointer;
+        margin-right: 30px;
+      }
+
+      .linkedIn1 {
+        background-color: rgb(10, 102, 194);
+        color: white;
+        height: 35px;
+        width: 250px;
+        border-style: none;
+        border-radius: 16px;
+        font-style: bolder;
+        font-weight: bold;
+        cursor: pointer;
+      }
+
+      .linkedIn2 {
+        background-color: white;
+        color: rgb(10, 102, 194);
+        height: 35px;
+        width: 100px;
+        border-style: solid;
+        border-color: rgb(10, 102, 194);
+        border-width: 2px;
+        border-radius: 16px;
+        font-style: bolder;
+        font-weight: bolder;
+        cursor: pointer;
+      }
+
+
+      .tahoma{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        font-weight: bolder;
+      }
+
+      .biggest{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight:  bolder;
+        margin-bottom:0px;
+        
+
+      }
+
+      .sales{
+        font-style: italic;  
+        color: red;  
+        margin-top: 0px;
+      }
+  
+      .html-css{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        font-weight:  bold;
+        margin-bottom: 0px;
+      }
+
+      .pro{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: grey;
+        margin-top: 0px;
+      }
+
+      .course{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 540;
+      }
+
+      .started{
+        border-style: none;
+        background-color: green;
+        color: white;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 6px;
+      }
+
+
+      .business{
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        text-align: center; 
+        font-weight: 900;
+      }
+    .apple{
+        font-family: Arial;
+        color: black;  
+        text-align: center;
+        font-size: 10px;
+        font-weight: bold; 
+    }
+    .greater{
+        color: blue;
+        text-align: center;
+        font-size: 10px;
+
+    }
