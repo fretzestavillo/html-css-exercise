@@ -569,3 +569,76 @@
         padding-left: 100px;
         padding-right: 100px;
     }
+    .googleDiv{
+        margin: auto;
+        width: 300px;
+        height: 250px;
+        background-color: white;
+        border-style: none;
+        padding-top: 0px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .googleImage{
+        width: 300px;
+        height: 130px;
+        display: block;
+    }
+    .googleSearch{
+        display: block;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-left: 20px;
+        width: 290px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-style: none;
+        transition: ;
+    }
+    
+    .googleSearch:focus{
+        outline: none;
+   
+    }
+    .gooleButton{
+        background-color: rgb(245, 243, 241);
+        border-style: none;
+        padding: 10px;
+        color: black;
+        font-weight: bolder;
+        margin-right: 5px;
+        cursor: pointer;
+        
+    }
+    .gooleButton:hover{
+        
+        background-color: yellow;
+    }
+
+    .gooleButton:active{
+        
+        background-color: red;
+    }
+
+
+
+    
+    
+    
+    .googleLucky{
+        cursor: pointer;
+        background-color:  rgb(245, 243, 241);
+        border-style: none;
+        padding: 10px;
+        color: black;
+        font-weight: bolder;
+    }
+
+
+    .buttonDiv{
+        display: block;
+        text-align: center;
+    }
