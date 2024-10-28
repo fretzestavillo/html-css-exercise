@@ -6,6 +6,126 @@ body{
     
 }
 
+
+.main{
+    display: flex;
+     flex-direction: row; 
+     justify-content: space-between;
+    height: 50px;
+   
+
+
+  
+}
+.left{
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+.hamburger-logo{
+    width: 40px;
+    margin-left: 20px;
+}
+
+.youtube-logo{
+    width: 81px;
+    margin-left: 20px;
+}
+
+
+.middle{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.search-input{
+    flex: 1;
+    height: 35px;
+    padding-left: 10px;
+}
+
+.search-icon{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+    width: 25px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+.mic-icon{
+    border-style: none;
+    width: 25px;
+    padding: 7px;
+    border-radius: 25px;
+    background-color:grey;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.right{
+    width: 400px;
+   
+}
+
+.right-icons{
+    width: 20px;
+    padding: 15px;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    display: inline-flex;
+    
+}
+
+
+.video-icon{
+    width: 20px;
+    padding: 15px;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    display: inline-flex;
+}
+.grid-icon{
+    width: 20px;
+    padding: 15px;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    display: inline-flex;
+}
+.bell-icon{
+    width: 20px;
+    padding: 15px;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    display: inline-flex;
+}
+.icon{
+    width: 20px;
+    padding: 15px;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    display: inline-flex;
+}
+
+
 .mother{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
