@@ -101,111 +101,44 @@ margin-right:5px ;
 
 
 
+
+.main-sidebar{
+    background-color: white; 
+    display: flex; 
+    flex-direction: column; 
+    position: fixed; 
+    top: 82px; 
+    left: 0px;  
+    height: 600px; 
+    margin-top: 15px;
+}
+
+
 .pointer{
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .side-images{
     width: 20px;
-    margin-bottom: 0px;
-    padding-left: 30px;
+   
 }
 .home{
-    margin-top: 0px;
-    padding-left: 27px;
+    margin-top: 3px;
     font-family: 'Roboto', 'Arial';
     font-size: 10px;
-
-}
-.short-icon{
-    width: 30px;
-    padding-left: 25px;
-}
-.shorts{
-    margin-top: 0px;
-    padding-left: 25px;
-    font-family: 'Roboto', 'Arial';
-    font-size: 10px;  
-}
-.subsciption{
-
-    margin-top: 0px;
-    padding-left: 15px;
-    font-family: 'Roboto', 'Arial';
-    font-size: 10px;
-}
-
-.youtube-music{
-    margin-top: 0px;
-    padding-left: 8px;
-    font-family: 'Roboto', 'Arial';
-    font-size: 10px;
-    
-}
-
-.you{
-    border-color: rgb(216, 203, 203);
-    border-style: solid;
-    border-width: 1px;
-    border-left: 0px;
-    border-bottom: 0px;
-    border-right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
 
-.history{
- 
-
-    margin-top: 0px;
-    padding-left: 26px;
-    font-family: 'Roboto', 'Arial';
-    font-size: 10px;
-    
-}
-.playlists{
-    margin-top: 0px;
-    padding-left: 23px;
-    font-family: 'Roboto', 'Arial';
-    font-size: 10px;
-    
-}
 
 
-.videos{
-    margin-top: 0px;
-    padding-left: 15px;
-    font-family: 'Roboto', 'Arial';
-    font-size: 10px;
-    
-}
-
-
-.watch-later{
-    margin-top: 0px;
-    padding-left: 15px;
-    font-family: 'Roboto', 'Arial';
-    font-size: 10px;
-    
-}
-
-
-.likes{
-    margin-top: 0px;
-    padding-left: 13px;
-    font-family: 'Roboto', 'Arial';
-    font-size: 10px;
-    
-}
-
-
-.downloads{
-    margin-top: 0px;
-    padding-left: 15px;
-    font-family: 'Roboto', 'Arial';
-    font-size: 10px;
-    
-}
 
 
 
