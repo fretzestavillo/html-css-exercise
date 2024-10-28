@@ -464,35 +464,38 @@ body{
   }
   
   
+.handle{
+    display: flex;
+    justify-content: center;
+    
+  
+}
+
   .img1 {
+    margin-right:20px;
+    margin-left:30px;
     width: 150px;
     height: 150px;
-    float: right;
-    margin-right: 30px;
-    margin-left: 30px;
-  
     border-radius: 120px;
   }
   
   
-  
   .img2 {
+    margin-right:20px;
+    margin-left:30px;
   
     width: 150px;
     height: 150px;
-    float: right;
-    margin-right: 30px;
-    margin-left: 30px;
   
   }
   
   
   .img3 {
+    margin-right:20px;
+    margin-left:30px;
+    
     width: 150px;
     height: 150px;
-    float: right;
-    margin-right: 30px;
-    margin-left: 30px;
     border-radius: 10px;
   
   }
