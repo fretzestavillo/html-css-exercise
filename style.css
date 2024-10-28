@@ -175,6 +175,22 @@
     border-radius: 15px;
     cursor: pointer;
 }
+
+
+
+.number{
+    background-color: rgb(210, 64, 64);
+   position: fixed;
+   right: 57px;
+   top: 18px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    padding: 4px 7px 4px 7px;
+    border-radius: 15px;
+    font-size: 9px;
+    cursor: pointer;
+    
+}
 .my-profile-icon{
     width: 28px;
     border-radius: 15px;
