@@ -159,34 +159,64 @@ html,
     justify-content: center;
     margin-top: 97px;
     margin-left: 100px;
-   
+    flex-wrap: wrap;
+    gap: 10px;
    
 }
 
 
 
-@media (max-width: 800px) {
-    .main-image-list {
-        display: grid;
-        grid-template-columns: 1fr;
-        column-gap: 20px;
-        row-gap: 20px;
-    
+  
+  .div-original {
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+  }
+  
+  
+
+
+
+
+  
+@media (min-width: 1911px) {
+    .div-original {
+      flex: 1 1 calc(16.66% - 10px); /* 6 columns */
+    }
+  }
+  
+  @media (max-width: 1910px) and (min-width: 1600px) {
+    .div-original {
+      flex: 1 1 calc(20% - 10px); /* 5 columns */
+    }
+  }
+  
+  @media (max-width: 1599px) and (min-width: 1200px) {
+    .div-original {
+      flex: 1 1 calc(25% - 10px); /* 4 columns */
+    }
+  }
+  
+  /* Media Query for Small Screens (3 columns) */
+  @media (max-width: 1199px) and (min-width: 800px) {
+    .div-original {
+      flex: 1 1 calc(33.33% - 10px); /* 3 columns */
+    }
+  }
+  
+  @media (max-width: 799px) and (min-width: 500px) {
+    .div-original {
+      flex: 1 1 calc(50% - 10px); /* 2 columns */
+    }
+  }
+  
+  @media (max-width: 499px) {
+    .div-original {
+      flex: 1 1 100%; /* 1 column */
     }
   }
 
 
-
-/* 
-  @media (max-width: 1600px) {
-    .main-image-list {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        column-gap: 20px;
-        row-gap: 20px;
-}
-    
-    } */
 
 
 
